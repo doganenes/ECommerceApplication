@@ -45,19 +45,6 @@ public class Order {
         this.userCreditCard = userCreditCard;
     }
 
-    // satın alma işleminde ürünün var olup olmadığını kontrol etme işlemi.
-    /*public void processingOrder() {
-
-        if (orderedProduct.reducedStock(numberOfProducts)) {
-
-            orderingUser.purchasingOrderingProduct(orderedProduct);
-
-        } else {
-            System.out.println("Process is failed");
-        }
-
-    }*/
-
     public void processingOrder() {
 
         try {

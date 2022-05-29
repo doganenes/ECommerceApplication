@@ -15,12 +15,8 @@ public class User {
     private ArrayList<Product> favouriteProducts;
     private ArrayList<CreditCard> creditCards;
 
-
-    // defining constructors
-    public User() {
-    }
-
-    public User(String userName, String name, String surname, String dateOfBirth, String password, String email, String homeAddress, String workAddress) {
+    public User(String userName, String name, String surname, String dateOfBirth, String password, String email,
+            String homeAddress, String workAddress) {
         this.userName = userName;
         this.name = name;
         this.surname = surname;
@@ -29,7 +25,6 @@ public class User {
         this.email = email;
         this.homeAddress = homeAddress;
         this.workAddress = workAddress;
-
 
         this.orderedProducts = new ArrayList<>();
         this.favouriteProducts = new ArrayList<>();
@@ -130,8 +125,6 @@ public class User {
         this.favouriteProducts.add(favouriteProduct);
         System.out.println(favouriteProduct.getProductName() + " is added to the system.");
     }
-
-    // purchase = satın almak , buy = satın almak
 
     public void purchasingOrderingProduct(Product orderingProduct) {
         this.orderedProducts.add(orderingProduct);

@@ -1,11 +1,9 @@
 public class CreditCard {
-    // defining variables
 
     private String creditCardNumber;
     private User creditCardUser;
     private String securityCode;
     private String expDateOfCard;
-
 
     public CreditCard(String creditCardNumber, User creditCardUser, String securityCode, String expDateOfCard) {
         this.creditCardNumber = creditCardNumber;

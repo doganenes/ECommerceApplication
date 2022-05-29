@@ -1,6 +1,4 @@
 public class Product {
-
-    // defining variables
     private String productName;
     private String productColor;
     private String productCategory;
@@ -8,7 +6,8 @@ public class Product {
     private int productWeight;
     private String productDescription;
 
-    public Product(String productName, String productColor, String productCategory, int productStock, int productWeight, String productDescription) {
+    public Product(String productName, String productColor, String productCategory, int productStock, int productWeight,
+            String productDescription) {
 
         this.productName = productName;
         this.productColor = productColor;
@@ -67,7 +66,6 @@ public class Product {
         this.productDescription = productDescription;
     }
 
-    // reduced = azalan, azaltılmış
     public boolean reducedStock(int numberOfPurchasedProduct) {
 
         if (numberOfPurchasedProduct > this.productStock) {
