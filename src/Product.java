@@ -1,4 +1,5 @@
 public class Product {
+
     private String productName;
     private String productColor;
     private String productCategory;
@@ -74,7 +75,7 @@ public class Product {
         } else {
 
             this.setProductStock(this.productStock - numberOfPurchasedProduct);
-            System.out.println(this.productStock + " " + this.productName + "left in the stock.");
+            System.out.println(this.productStock + " " + this.productName + " left in the stock.");
             return true;
         }
 
